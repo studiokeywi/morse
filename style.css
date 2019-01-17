@@ -1,0 +1,42 @@
+body {
+    color: #fdf6e39a;
+    background-color: #002b36ff;
+    font-weight: bold;
+    font-size: 12pt;
+}
+#output {
+    resize: none;
+    font-family: "ProggyCleanTTSZBP", monospace;
+    overflow: auto;
+    height: 20em;
+    
+}
+.debug, .error, .info, .log, .warn, .group {
+    opacity: 60%;
+    width: auto;
+    height: auto;
+}
+.debug, .error, .info, .log, .warn,
+{
+    background-color: #0736429a;
+}
+.debug {
+    color: #859900ff;
+}
+.error {
+    color: #dc322fff;
+}
+.info {
+    color: #2aa198ff;
+}
+.log {
+    color: #002b36ff;
+}
+.warn {
+    color: #b58900ff;
+}
+.group {
+    font-weight: bolder;
+    font-size: 18pt;
+    background-color: #586e759a;
+}

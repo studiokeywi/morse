@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Morse Code</title>
+        <script src="morse.js" charset="UTF-8" defer id="morseScript"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+    </head>
+    <body>
+        <form id="morseForm">
+            <input type="button" value="Run All Tests" onclick="morse.tests.runAllTests();">
+            <input type="button" value="Clear Log" onclick="morse.tests.clearResults();">
+            <input type="button" value="Reload JS" onclick="reload.js();">
+            <br>
+            <pre>
+                <div id="output"></div>
+            </pre>
+        </form>
+    </body>
+</html>
